@@ -9,6 +9,7 @@ public class PerfectNumber {
 		
 		int sumOfDivisors = 0;
 		int number = scanner.nextInt();
+		scanner.close();
 
 		for (int index = 2; index * index <= number; index++) {
 			if (number % index == 0) {
